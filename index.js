@@ -104,7 +104,7 @@ var BackgroundGeolocation = {
     errorFn = errorFn || emptyFn;
     RNBackgroundGeolocation.getConfig(successFn, errorFn);
   },
-  
+
   getLogEntries: function(limit, successFn, errorFn) {
     successFn = successFn || emptyFn;
     errorFn = errorFn || emptyFn;
